@@ -27,13 +27,17 @@ python3 extract_fasta_by_ID.py -f sequences.fasta -i idlist.txt -out output.fast
 ## Argument details
 
 -f | --fasta
+  
   The argument represent the file name, which keep nucleotide or amino acid sequences with fasta.
 
 -i | --idlist
-The file include sequence name that need to extract. Save one sequence name per line. 
+
+  The file include sequence name that need to extract. Save one sequence name per line. 
 
 -o | --out
-The output file name, the default is out.fasta.
+
+  The output file name, the default is out.fasta.
 
 -m | --model
-The extract model, default value is rigorous. Another value is relaxed. 
+
+  The extract model, default value is rigorous. Another value is relaxed. 
